@@ -1,1 +1,1 @@
-# ESP01-Based-PWM-Generator
+# ATTINY85-Based-PWM-Generator
