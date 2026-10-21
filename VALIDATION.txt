@@ -1,0 +1,13 @@
+AVR compile check: PASS
+Compiler: avr-g++ 5.4.0
+Target: attiny85, F_CPU=16000000UL, -Os -Wall -Wextra -Werror
+Sketch translation unit compiled successfully (not a full Arduino core link).
+Host arithmetic check: PASS, 922624 parameter combinations.
+Verified nominal frequency cap, 5..95% modeled duty, compare range, monotonic duty.
+500kHz: prescaler=1, TOP=127, OCR1A=7..121.
+Schematic: SVG parsed/rendered to PNG and PDF; visual inspection completed.
+No physical board, oscilloscope, driver or MOSFET validation performed.
+
+P3 revision: AVR compile PASS with ADC3/PB3; PB5 unused.
+Parameter sweep repeated: 922624 cases PASS.
+USB isolation switch is a reference wiring proposal; no board trace layout supplied or verified.
